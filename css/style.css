@@ -63,3 +63,50 @@ body {
   text-align: right;
   color: white;
 }
+
+/* line 54, ../compass/sass/_header.scss */
+#nav-bar {
+  width: 100%;
+  background: linear-gradient(to bottom, #fafbfb, #e1e1e1);
+  float: left;
+}
+/* line 58, ../compass/sass/_header.scss */
+#nav-bar #nav-inner {
+  overflow: hidden;
+  max-width: 991px;
+  margin: auto;
+}
+/* line 62, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item {
+  list-style: none;
+  padding: 10px 20px;
+  float: left;
+  border-left: solid 1px #ccc;
+}
+/* line 67, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item:hover {
+  background-color: #282828;
+}
+/* line 70, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #666666;
+}
+/* line 74, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item a:hover {
+  color: #ffcb00;
+}
+/* line 78, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item.green {
+  background: #82e847;
+  color: white;
+}
+/* line 81, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item.green:hover {
+  background-color: #282828;
+}
+/* line 86, ../compass/sass/_header.scss */
+#nav-bar #nav-inner .menu-item.green a:hover {
+  color: #ffcb00;
+}

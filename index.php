@@ -34,5 +34,18 @@
 		</div>
 	</div>
 
+	<div id="nav-bar">
+		<div id="nav-inner">
+			<li class="menu-item"><a href="#">THINGS TO DO</a></li>
+			<li class="menu-item"><a href="#">PLAN VISIT</a></li>
+			<li class="menu-item"><a href="#">WHAT'S NEW</a></li>
+			<li class="menu-item"><a href="#">EVENTS</a></li>
+			<li class="menu-item"><a href="#">PARK HOURS</a></li>
+			<li class="menu-item"><a href="#">GROUPS</a></li>
+			<li class="menu-item green"><a href="#">PASSES & MEMBERSHIPS</a></li>
+			<li class="menu-item green"><a href="#">TICKETS</a></li>
+		</div>
+	</div>
+
 </body>
 </html>
