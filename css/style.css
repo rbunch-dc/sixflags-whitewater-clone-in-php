@@ -1,10 +1,65 @@
-/* line 1, ../compass/sass/_header.scss */
+/* line 1, ../compass/sass/_base.scss */
 body {
-  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
 
-/* line 5, ../compass/sass/_header.scss */
+/* line 1, ../compass/sass/_header.scss */
 #header {
-  height: 50px;
-  background-color: red;
+  background: #a91a16 url(../images/sf-bg-park-header.jpg) no-repeat center top;
+  float: left;
+  width: 100%;
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  height: 110px;
+}
+/* line 7, ../compass/sass/_header.scss */
+#header #header-inner {
+  padding-top: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+/* line 11, ../compass/sass/_header.scss */
+#header #header-inner #header-left {
+  float: left;
+}
+/* line 15, ../compass/sass/_header.scss */
+#header #header-inner #header-right {
+  float: right;
+}
+/* line 17, ../compass/sass/_header.scss */
+#header #header-inner #header-right .link-item {
+  float: left;
+  margin: 0 0 0 0.5em;
+  list-style: none;
+}
+/* line 21, ../compass/sass/_header.scss */
+#header #header-inner #header-right .link-item a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* line 26, ../compass/sass/_header.scss */
+#header #header-inner #header-right .link-item a:hover {
+  color: #ffcb00;
+}
+/* line 31, ../compass/sass/_header.scss */
+#header #header-inner #header-right .link-item.orange a {
+  color: #ffcb00;
+}
+/* line 33, ../compass/sass/_header.scss */
+#header #header-inner #header-right .link-item.orange a:hover {
+  color: #f3f3f3;
+}
+/* line 40, ../compass/sass/_header.scss */
+#header #header-inner #header-right #park-title {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+/* line 46, ../compass/sass/_header.scss */
+#header #header-inner #header-right #park-city {
+  text-align: right;
+  color: white;
 }
