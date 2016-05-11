@@ -1,0 +1,10 @@
+/* line 1, ../compass/sass/_header.scss */
+body {
+  background-color: red;
+}
+
+/* line 5, ../compass/sass/_header.scss */
+#header {
+  height: 50px;
+  background-color: red;
+}
