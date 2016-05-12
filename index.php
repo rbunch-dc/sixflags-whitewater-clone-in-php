@@ -80,29 +80,29 @@
 							<?php print $promo['text_header']; ?>
 						</div>
 						<div class="promo-text">
-							Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.	
+							<?php print $promo['text_body']; ?>
 						</div>
 					</div>
 					<div class="promo-small">
 						<div class="promo-small-image">
-							<img src="images/chickenstrips_90x68_0.png">
+							<img src="<?php print $promo['lower_image'];?>">
 						</div>
 						<div class="promo-small-text-title">
-							Online Meal Deals
+							<?php print $promo['lower_header'];?>
 						</div>
 						<div class="promo-small-text">
-							Save time and money by printing meal deals online.
+							<?php print $promot['lower_text'];?>
 						</div>
 					</div>
 					<div class="promo-small">
 						<div class="promo-small-image">
-							<img src="images/burger-90x68.jpg">
+							<img src="<?php print $promo['lower_image2'];?>">
 						</div>
 						<div class="promo-small-text-title">
-							Dining Passes
+							<?php print $promo['lower_header2'];?>
 						</div>
 						<div class="promo-small-text">
-							Enjoy lunch, dinner and a snack on each visit.
+							<?php print $promo['lower_text2']; ?>
 						</div>
 					</div>
 				</div>	
