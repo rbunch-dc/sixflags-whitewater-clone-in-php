@@ -5,11 +5,6 @@
 	while($row = mysql_fetch_assoc($result)){
 		$promo_array[] = $row;
 	}
-
-	print "<pre>";
-	print_r($promo_array);
-	exit;
-
 ?>
 
 
